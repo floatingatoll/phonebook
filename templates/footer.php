@@ -1,3 +1,3 @@
-<script type="text/javascript" src="js/phonebook.js?<?php echo filemtime('js/phonebook.js') ?>"></script>
+<?php echo link_javascript("js/phonebook.js?".filemtime('js/phonebook.js')); ?>
 </body>
 </html>

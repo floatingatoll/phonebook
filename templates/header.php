@@ -3,10 +3,10 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Mozilla Phonebook</title>
-    <link href="css/font-awesome.min.css?<?php echo filemtime('css/font-awesome.min.css') ?>" rel="stylesheet" type="text/css">
-    <link href="css/style.css?<?php echo filemtime('css/style.css') ?>" rel="stylesheet" type="text/css">
+    <?php echo link_stylesheet("css/font-awesome.min.css?".filemtime('css/font-awesome.min.css')); ?>
+    <?php echo link_stylesheet("css/style.css?".filemtime('css/style.css')); ?>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <script type="text/javascript" src="js/jquery-min.js?<?php echo filemtime('js/jquery-min.js') ?>"></script>
+    <?php echo link_javascript("js/jquery-min.js?".filemtime('js/jquery-min.js')); ?>
     <link title="Mozilla Phonebook" rel="search" type="application/opensearchdescription+xml" href="opensearch.xml" />
   </head>
 
