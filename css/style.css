@@ -735,3 +735,7 @@ body.lightbox #overlay {
   margin-top: 5em;
   text-align: center;
   }
+
+.pgpfingerprintfont {
+    font-size: 12px;
+}
