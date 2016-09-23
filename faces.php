@@ -1,6 +1,7 @@
 <?php
 define('page', 'wall');
 require_once('templates/header.php');
+require_once('init.php');
 ?>
 <div id="results">
 </div>
