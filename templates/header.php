@@ -7,6 +7,7 @@
     <link href="css/style.css?<?php echo filemtime('css/style.css') ?>" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script type="text/javascript" src="js/jquery-min.js?<?php echo filemtime('js/jquery-min.js') ?>"></script>
+    <link title="Mozilla Phonebook" rel="search" type="application/opensearchdescription+xml" href="opensearch.xml" />
   </head>
 
 <body data-page="<?php echo page ?>">
