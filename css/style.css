@@ -747,3 +747,7 @@ body.lightbox #overlay {
 .office-city-display-show {
     display: block;
 }
+
+#clear-button {
+    display: none;
+}

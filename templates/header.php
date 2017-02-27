@@ -19,7 +19,7 @@
       <input type="hidden" name="format" value="html">
       <div id="text-wrapper">
         <input type="text" name="query" class="with-clear-button" id="text" size="18">
-        <div id="clear-button" title="Clear" style="display:none"></div>
+        <div id="clear-button" title="Clear"></div>
       </div><button type="submit" id="search">Search</button>
     </div>
     <div id="throbber"></div>

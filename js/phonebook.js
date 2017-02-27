@@ -21,6 +21,7 @@ Page.prototype.init = function() {
       }
     });
   $('#clear-button')
+    .hide()
     .mousedown(function() {
       $(this).addClass('active');
     })
