@@ -727,6 +727,10 @@ body.lightbox #overlay {
   display: block;
   }
 
+.no-results-template {
+  display: none;
+}
+
 .no-results {
   margin-top: 5em;
   text-align: center;

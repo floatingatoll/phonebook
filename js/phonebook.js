@@ -66,9 +66,9 @@ Page.prototype.linkifyCard = function($parent) {
 Page.prototype.noResults = function($parent) {
   // display "no results" message in parent
   $parent.html(
-    $('.no-results')
+    $('.no-results-template')
       .clone()
-      .show()
+      .attr('class', 'no-results')
   );
 };
 

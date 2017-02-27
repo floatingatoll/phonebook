@@ -31,7 +31,7 @@
   </form>
 </div>
 
-<div class="no-results" style="display: none">
+<div class="no-results-template">
   <img src="img/ohnoes.jpg">
   <h2>OH NOES! No ones were foundz.</h2>
 </div>
