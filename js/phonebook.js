@@ -372,7 +372,25 @@ TreePage.prototype.search = function(query) {
       });
 
       // and bring into view
-      $('html').animate({ scrollTop: $person.first().offset().top - 2 });
+      $('html').animate({
+        scrollTop: $person.first().offset().top - 2,
+        stack: false,
+      }, {
+        always: function() {
+          // expand exact matches
+          if (query.indexOf('@') > -1) {
+window.alert(1);
+            var $class = $('#text').val().replace('@', '-at-').replace('.', '_');
+window.alert($class);
+            $('html').find("#orgchart li#" + $class).each(function() {
+              $(this).find('a.hr-link').each(function() {
+                $(this).click();
+              });
+            });
+          }
+        },
+      });
+
 
       resolve();
     }).fail(function(jx, textStatus, errorThrown) {
